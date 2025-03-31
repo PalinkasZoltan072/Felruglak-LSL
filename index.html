@@ -9,7 +9,7 @@
 </head>
 <body>
     <script src="script.js"></script>
-    <h1>Memory Game</h1>
+    <h1 id="szines">Memory Game</h1>
 
     <h2>Adatok rögzítése</h2>
     <input placeholder="Név" type="text" size="10" id="nev-kuldes">
@@ -18,18 +18,31 @@
    
     
      <h2>Szintek</h2>
-     <input type="checkbox" id="elso-szint" name="1szint">
-     <label for="1szint">Könnyű szint</label>
-     <input type="checkbox" id="masodik-szint" name="2szint">
-     <label for="2szint">Közepes szint</label>
-     <input type="checkbox" id="harmadik" name="3szint">
-     <label for="3szint">Nehéz szint</label> 
+     <form >
+        <label for="">
+            <input type="radio" name="option" value="12"> Könnyű Szint
+        </label>
+        <label for="">
+            <input type="radio" name="option" value="18"> Közepes Szint
+        </label>
+        <label for="">
+            <input type="radio" name="option" value="24"> Nehéz Szint
+        </label>
+
+
+     </form>
      <br>
+     <ul id="ul">
+
+     </ul>
      
      <button id="kuldes" >Játék kezdése</button>
      
     
     <!-- szintek első : 12 , masodik 18, harmadik 24 (üres listák)
-     adatok bekuldese => szintek kivalasztasa = > general -->
+     adatok bekuldese => szintek kivalasztasa = > general 
+     animaciok hasznalata :
+     memory game felirat : 
+     -->
 </body>
 </html>
