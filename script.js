@@ -50,15 +50,19 @@ function CreaterCards() {
         elsoszint.appendChild(li);
     }
     keveres(tomb);
+    ShowCards()
 
     
 }
+
+
+
 
 function Start() 
 {
     Startbutton.removeEventListener("click", Start)
     CreaterCards();
-    
+    //Felfedés(); // lehet nem is kell mert a showcards eleg
     ShowCards();
     
 }
