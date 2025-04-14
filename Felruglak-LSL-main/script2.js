@@ -1,7 +1,7 @@
 
 export const tomb = [
     { url: "jó képek/macska1.png", felfedett: false, megtalalt: false },
-    { url: "jó képek/macska1P.png", felfedett: false, megtalalt: false }, 
+    { url: "jó képek/macska1P.png", felfedett: false, megtalalt: false }, // jó képek mappaban vannak a képek, azokat attenni a kepek mappaba , az osszes kep .png lett szoval átírni a jfifeket
     { url: "jó képek/macska2.png", felfedett: false, megtalalt: false },
     { url: "jó képek/macska2P.png", felfedett: false, megtalalt: false },
     { url: "jó képek/macska3.png", felfedett: false, megtalalt: false },
